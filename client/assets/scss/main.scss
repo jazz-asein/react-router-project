@@ -4,3 +4,31 @@
 /* purgecss end ignore */
 
 @tailwind utilities;
+body {
+  background: #191938;
+}
+.wrapper {
+  min-height: calc( 100vh - 65px );
+}
+.header {
+  background: #191938;
+  color: #f40000;
+  border-bottom: #32324e solid;
+}
+.logo {
+  background: #32324e;
+}
+.sm-box {
+  background: #32324e;
+  align-self: center;
+}
+h1 {
+  border-bottom: #32324e solid;
+  font-weight: bold;
+  font-size: x-large;
+  color: white;
+  margin-bottom: 150px;
+}
+.icon {
+  color: #f40000;
+}
